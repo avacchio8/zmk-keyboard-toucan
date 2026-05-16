@@ -90,7 +90,7 @@
         base {
             display-name = "BASE";
             bindings = <
-&kp TAB  &kp Q  &kp W  &lt 2 E  &kp R  &kp T  &kp Y  &kp U  &lt 1 I  &kp O  &kp P  &kp BSPC  &kp LCTRL  &kp A  &mt LCTRL S  &mt LEFT_ALT D  &mt LSHIFT F  &kp G  &kp H  &mt RSHIFT J  &mt RIGHT_ALT K  &mt RCTRL L  &lt 3 SEMICOLON  &kp SQT  &kp LSHFT  &mt LCTRL Z  &mt LWIN X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH  &kp ESC  &mkp MB1  &lt 1 SPACE  &lt 5 TAB  &lt 5 ENTER  &lt 2 BACKSPACE  &trans
+&kp TAB  &kp Q  &kp W  &lt 6 E  &kp R  &kp T  &kp Y  &kp U  &lt 6 I  &kp O  &kp P  &kp BSPC  &kp LCTRL  &kp A  &mt LCTRL S  &mt LEFT_ALT D  &mt LSHIFT F  &kp G  &kp H  &mt RSHIFT J  &mt RIGHT_ALT K  &mt RCTRL L  &lt 3 SEMICOLON  &kp SQT  &kp LSHFT  &mt LCTRL Z  &mt LWIN X  &kp C  &kp V  &kp B  &kp N  &kp M  &kp COMMA  &kp DOT  &mt RSHIFT SLASH  &kp ESC  &mkp MB1  &lt 1 SPACE  &lt 5 TAB  &lt 5 ENTER  &lt 2 BACKSPACE  &trans
             >;
         };
 
