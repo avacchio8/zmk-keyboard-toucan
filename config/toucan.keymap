@@ -59,6 +59,11 @@
             bindings = <&mkp MB3>;
             key-positions = <26 25>;
         };
+
+        cmbTog6 {
+            bindings = <&tog 6>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
