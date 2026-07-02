@@ -116,7 +116,7 @@
         adj {
             display-name = "ADJ";
             bindings = <
-&trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &mo 6  &kp LC(T)  &kp LC(B)  &kp TAB  &kp LCTRL  &kp LS(LG(D))  &trans  &trans  &kp LC(LA(P))  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans  &kp F4  &kp LA(LC(RIGHT))  &kp LA(LEFT)  &kp LA(RIGHT)  &trans  &trans  &trans  &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans  &kp LC(LA(T))  &kp LC(LA(R))  &kp LC(W)  &kp LA(P)  &mo 4  &trans  &trans  &trans  &trans  &mkp MB2  &mkp MB1  &tog 6
+&trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &mo 6  &kp LC(T)  &kp LC(B)  &kp TAB  &kp LCTRL  &kp LS(LG(D))  &trans  &trans  &kp LC(LA(LS(P)))  &kp LA(N4)  &kp LA(N5)  &kp LA(N6)  &trans  &kp F4  &kp LA(LC(RIGHT))  &kp LA(LEFT)  &kp LA(RIGHT)  &trans  &trans  &trans  &trans  &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &trans  &kp LC(LA(T))  &kp LC(LA(R))  &kp LC(W)  &kp LA(P)  &mo 4  &trans  &trans  &trans  &trans  &mkp MB2  &mkp MB1  &tog 6
             >;
         };
 
