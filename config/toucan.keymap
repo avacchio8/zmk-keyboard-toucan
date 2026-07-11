@@ -87,6 +87,23 @@
             bindings = <&kp RIGHT &kp RIGHT &kp RIGHT &kp RIGHT>;
             label = "RIGHT4";
         };
+
+        dlThem: dlThem {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LEFT_ALT &kp T>,
+                <&macro_wait_time 100>,
+                <&kp UP_ARROW>,
+                <&macro_wait_time 100>,
+                <&kp RIGHT>,
+                <&macro_wait_time 100>,
+                <&kp DOWN>,
+                <&macro_wait_time 100>,
+                <&kp ENTER>;
+
+            label = "DLTHEM";
+        };
     };
 
     keymap {
@@ -130,7 +147,7 @@
 
         custom {
             bindings = <
-&trans  &kp ESC  &kp LG(LS(C))  &kp LG(V)  &kp LG(LC(T))  &kp LG(LS(T))  &kp TAB  &kp LA(PRINTSCREEN)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp LS(LG(S))  &kp LCTRL  &kp LALT  &kp LSHFT  &trans  &trans  &kp RSHFT  &kp RALT  &kp RCTRL  &kp GRAVE  &trans  &trans  &kp LA(PRINTSCREEN)  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp LS(LG(RIGHT))  &kp LC(LS(LG(B)))  &trans  &kp LS(LG(RIGHT))  &trans  &kp RGUI  &kp INSERT  &trans  &trans  &space4  &trans  &trans  &trans  &trans
+&trans  &kp ESC  &kp LG(LS(C))  &kp LG(V)  &kp LG(LC(T))  &kp LG(LS(T))  &kp TAB  &kp LA(PRINTSCREEN)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp LS(LG(S))  &kp LCTRL  &kp LALT  &kp LSHFT  &trans  &trans  &kp RSHFT  &kp RALT  &kp RCTRL  &kp GRAVE  &trans  &trans  &kp LA(PRINTSCREEN)  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp LS(LG(RIGHT))  &kp LC(LS(LG(B)))  &dlThem  &kp LS(LG(RIGHT))  &trans  &kp RGUI  &kp INSERT  &trans  &trans  &space4  &trans  &trans  &trans  &trans
             >;
 
             label = "CUSTOM";
